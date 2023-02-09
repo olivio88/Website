@@ -1,0 +1,20 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+}
+
+.jumbotron {
+  padding: 3rem 1rem;
+  background-image: url(./Source/Image/20230122_234203.jpg);
+  color: #ffff;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.warning {
+  padding: 2rem 0rem;
+}
+.warning img {
+  width: 50%;
+}
