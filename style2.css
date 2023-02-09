@@ -32,13 +32,14 @@ body {
 
 .experience {
   background-color: rgba(168, 201, 234, 0.925);
-  padding: 1rem 0rem 2rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
 .slide-content {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
+  padding: 30px;
 }
 
 .overlay {
@@ -70,7 +71,6 @@ body {
 .slide-container {
   max-width: 93%;
   width: 100%;
-  padding: 40px 0;
 }
 
 .card {
