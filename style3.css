@@ -12,3 +12,13 @@ body {
   background-image: url(./Source/Image/20230122_234203.jpg);
   text-shadow: 1px 1px rgb(0, 0, 0);
 }
+.warning { 
+  padding: 2rem 0rem;
+}
+
+.warning img { 
+  width: 50%;
+} 
+.row { 
+  padding: 0rem 1rem;
+}
