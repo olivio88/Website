@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: roboto;
+  background-color: red;
 }
 
 .jumbotron {
@@ -19,6 +20,4 @@ body {
 .warning img { 
   width: 50%;
 } 
-.row { 
-  padding: 0rem 1rem;
-}
+
