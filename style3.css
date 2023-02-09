@@ -1,0 +1,14 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: roboto;
+  background-image: url(./Source/Image/20230122_234203.jpg);
+}
+
+.jumbotron {
+  padding: 3rem 1rem;
+  color: #ffff;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
