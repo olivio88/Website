@@ -1,5 +1,4 @@
 body {
-  min-width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,11 +12,10 @@ body {
   color: #ffff;
   text-shadow: 1px 1px rgb(0, 0, 0);
 }
-.warning { 
+.warning {
   padding: 2rem 0rem;
 }
 
-.warning img { 
+.warning img {
   width: 50%;
-} 
-
+}
