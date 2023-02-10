@@ -31,15 +31,16 @@ body {
 }
 
 .slide-content {
-  margin: 0 40px;
+  margin: 0 50px;
   overflow: hidden;
   border-radius: 25px;
-  padding: 30px;
+  padding: 30px 20px;
+  background-color: red;
 }
 
 .overlay {
   position: absolute;
-  border-radius: 25px 25px 0px 25px;
+  border-radius: 25px 25px 0px 0px;
   left: 0;
   top: 0;
   height: 100%;
@@ -47,30 +48,20 @@ body {
   background-color: #4070f4;
 }
 
-.overlay::before,
-.overlay::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #4070f4;
-}
-
 .overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: white;
+  background-color: #fff;
 }
 
 .slide-container {
   max-width: 1300px;
+  background-color: grey;
   width: 100%;
 }
 
 .card {
   border-radius: 25px;
-  background-color: white;
+  background-color: #fff;
 }
 
 .card-image {
@@ -93,6 +84,7 @@ body {
 .image-content {
   position: relative;
   row-gap: 5px;
+  background-color: grey;
   padding: 25px 0;
 }
 
@@ -164,17 +156,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
 
-.slide-content { 
-  margin: 0 10px;
+  .swiper-button .swiper-navBtn {
+    display: none;
+  }
 }
-
-.swiper-button .swiper-navBtn {
-display: none;
-}
-}
-  
- 
-  
-  
- 
