@@ -67,6 +67,7 @@ body {
 .slide-container {
   max-width: 1300px;
   width: 100%;
+  border: solid black;
 }
 
 .card {
