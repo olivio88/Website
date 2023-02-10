@@ -34,7 +34,6 @@ body {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
-  border: solid black;
   padding: 30px;
 }
 
@@ -67,7 +66,6 @@ body {
 .slide-container {
   max-width: 1300px;
   width: 100%;
-  border: solid black;
 }
 
 .card {
