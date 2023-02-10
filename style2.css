@@ -35,7 +35,6 @@ body {
   overflow: hidden;
   border-radius: 25px;
   padding: 30px 20px;
-  background-color: red;
 }
 
 .overlay {
@@ -55,7 +54,6 @@ body {
 
 .slide-container {
   max-width: 1300px;
-  background-color: grey;
   width: 100%;
 }
 
@@ -84,7 +82,6 @@ body {
 .image-content {
   position: relative;
   row-gap: 5px;
-  background-color: grey;
   padding: 25px 0;
 }
 
