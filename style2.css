@@ -60,7 +60,7 @@ body {
 
 .overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: #fff;
+  background-color: white;
 }
 
 .slide-container {
