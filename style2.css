@@ -24,16 +24,20 @@ body {
   padding: 0rem 1rem;
 }
 
+.about {
+  padding: 3rem 0rem;
+}
+
 .experience {
   background-color: rgba(168, 201, 234, 0.925);
-  padding: 1rem 0rem;
+  padding: 3rem 0rem;
 }
 
 .slide-content {
   margin: 0 50px;
   overflow: hidden;
   border-radius: 25px;
-  padding: 30px 20px;
+  padding: 20px 20px 37px 20px;
 }
 
 .overlay {
@@ -48,7 +52,6 @@ body {
 
 .slide-container {
   max-width: 90vw;
-  border: solid red;
 }
 
 .card {
