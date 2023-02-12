@@ -33,8 +33,8 @@ body {
   background-color: rgba(168, 201, 234, 0.925);
 }
 
-.title {
-  margin-top: 40px;
+h2 {
+  font-weight: bold;
 }
 
 .title h2 {
