@@ -331,13 +331,11 @@ body {
   .timeline ul li:nth-child(odd) {
     float: left;
     text-align: right;
-    clear: both;
   }
 
   .timeline ul li:nth-child(even) {
     float: left;
     text-align: right;
-    clear: both;
   }
 
   .content {
@@ -397,21 +395,21 @@ body {
     position: absolute;
     left: 40px;
     margin: 0;
-
+    text-align: center;
     background-color: #303249;
     color: #fff;
     border-radius: 5px;
-    width: 4rem;
+    width: 4.5rem;
   }
 
   .timeline ul li:nth-child(even) .time {
     position: absolute;
     left: 40px;
     margin: 0;
-
+    text-align: center;
     background-color: #303249;
     color: #fff;
     border-radius: 5px;
-    width: 4rem;
+    width: 4.5rem;
   }
 }
