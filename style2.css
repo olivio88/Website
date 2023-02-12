@@ -400,7 +400,7 @@ body {
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
-    width: 8rem;
+    width: 8.5rem;
   }
 
   .timeline ul li:nth-child(even) .time {
@@ -411,6 +411,6 @@ body {
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
-    width: 8rem;
+    width: 8.5rem;
   }
 }
