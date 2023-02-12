@@ -86,7 +86,7 @@ body {
   padding-bottom: 20px;
   border: 1px solid #eee;
   padding: 10px 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #fff;
   text-align: justify;
 }
@@ -342,7 +342,7 @@ body {
     padding-bottom: 20px;
     border: 1px solid #eee;
     padding: 10px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
     text-align: justify;
     margin-top: 3rem;
@@ -398,7 +398,7 @@ body {
     text-align: center;
     background-color: #303249;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 18px;
     width: 4.5rem;
   }
 
@@ -409,7 +409,7 @@ body {
     text-align: center;
     background-color: #303249;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 18x;
     width: 4.5rem;
   }
 }
