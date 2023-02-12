@@ -276,6 +276,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    font-family: roboto;
+  }
+
   .slide-content {
     margin: 0 10px;
   }
