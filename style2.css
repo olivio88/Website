@@ -396,21 +396,17 @@ body {
     top: 12px;
     left: 40px;
     margin: 0;
-    padding: 8px 16px;
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
-    width: 8.5rem;
   }
 
   .timeline ul li:nth-child(even) .time {
     position: absolute;
     left: 40px;
     margin: 0;
-    padding: 8px 16px;
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
-    width: 8.5rem;
   }
 }
