@@ -393,9 +393,9 @@ body {
 
   .timeline ul li:nth-child(odd) .time {
     position: absolute;
-    top: 12px;
     left: 40px;
     margin: 0;
+    padding: 8px 16px;
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
@@ -405,6 +405,7 @@ body {
     position: absolute;
     left: 40px;
     margin: 0;
+    padding: 8px 16px;
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
