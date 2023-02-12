@@ -397,21 +397,21 @@ body {
     position: absolute;
     left: 40px;
     margin: 0;
-    padding: 8px 16px;
+
     background-color: #303249;
     color: #fff;
-    border-radius: 18px;
-    width: 3rem;
+    border-radius: 5px;
+    width: 4rem;
   }
 
   .timeline ul li:nth-child(even) .time {
     position: absolute;
     left: 40px;
     margin: 0;
-    padding: 8px 16px;
+
     background-color: #303249;
     color: #fff;
-    border-radius: 18px;
-    width: 3rem;
+    border-radius: 5px;
+    width: 4rem;
   }
 }
