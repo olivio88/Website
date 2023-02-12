@@ -137,25 +137,23 @@ body {
 .timeline ul li:nth-child(odd) .time {
   position: absolute;
   top: 12px;
-  right: -165px;
+  right: -102px;
   margin: 0;
   padding: 8px 16px;
   background-color: #303249;
   color: #fff;
   border-radius: 18px;
-  width: 8rem;
 }
 
 .timeline ul li:nth-child(even) .time {
   position: absolute;
   top: 12px;
-  left: -165px;
+  left: -102px;
   margin: 0;
   padding: 8px 16px;
   background-color: #303249;
   color: #fff;
   border-radius: 18px;
-  width: 8rem;
 }
 
 .experience {
@@ -403,6 +401,7 @@ body {
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
+    width: 4rem;
   }
 
   .timeline ul li:nth-child(even) .time {
@@ -413,5 +412,6 @@ body {
     background-color: #303249;
     color: #fff;
     border-radius: 18px;
+    width: 4rem;
   }
 }
