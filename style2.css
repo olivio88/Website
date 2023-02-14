@@ -69,7 +69,7 @@ body {
   transition: 0.4s cubic-bezier(0.68, -0.55, 0265 1.55);
 }
 
-.wrapper .icon:hover span {
+.wrapper .icon span a {
   color: #fff;
 }
 
@@ -78,8 +78,28 @@ body {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
+.wrapper .facebook:hover span a {
+  color: #2980b9;
+}
+
+.wrapper .instagram:hover span a {
+  color: #e74c3c;
+}
+
+.wrapper .telegram:hover span a {
+  color: #0088cc;
+}
+
+.wrapper .whatsapp:hover span a {
+  color: #27ae60;
+}
+
+.wrapper .line:hover span a {
+  color: #27ae60;
+}
+
 .wrapper .facebook:hover .tooltip,
-.wrapper .tooltip::before {
+.wrapper .facebook:hover .tooltip::before {
   background-color: #2980b9;
 }
 
@@ -115,7 +135,7 @@ body {
 }
 
 .about {
-  padding: 3rem 0rem;
+  padding: 3rem 1rem;
 }
 
 .education {
@@ -247,7 +267,7 @@ h2 {
 }
 
 .experience {
-  padding: 3rem 0rem;
+  padding: 3rem 1rem;
 }
 
 .slide-content {
@@ -272,8 +292,12 @@ h2 {
 }
 
 .card {
-  border-radius: 25px;
+  border-radius: 25px 25px 25px 25px;
   background-color: #fff;
+}
+
+.card img {
+  border-radius: 25px 25px 0px 0px;
 }
 
 .card-image {
@@ -363,9 +387,24 @@ h2 {
   background-color: #4070f4;
 }
 
+.achievement {
+  padding: 3rem 2rem;
+  background-color: rgba(168, 201, 234, 0.925);
+}
+
+.gambar {
+  width: 16%;
+  height: 16%;
+}
+
 @media screen and (max-width: 768px) {
   body {
     font-family: roboto;
+  }
+
+  .gambar {
+    width: 50%;
+    height: 50%;
   }
 
   .slide-content {
