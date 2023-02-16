@@ -387,9 +387,14 @@ h2 {
   background-color: #4070f4;
 }
 
+.project {
+  padding: 3rem 0rem;
+  background-color: rgba(168, 201, 234, 0.925);
+}
+
 .achievement {
   padding: 3rem 2rem;
-  background-color: rgba(168, 201, 234, 0.925);
+  background-color: #fff;
 }
 
 .gambar {
@@ -397,14 +402,23 @@ h2 {
   height: 16%;
 }
 
+@media screen and (max-width: 800px) {
+  .gambar {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 518px) {
+  .gambar {
+    width: 30%;
+    height: 30%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     font-family: roboto;
-  }
-
-  .gambar {
-    width: 50%;
-    height: 50%;
   }
 
   .slide-content {
