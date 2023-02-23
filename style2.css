@@ -141,7 +141,7 @@ body {
 .desc {
   display: flex;
   flex-direction: row;
-  padding: 0% 15%;
+  padding: 0% 12%;
   width: 100%;
 }
 
@@ -431,10 +431,17 @@ h2 {
     height: 20%;
   }
 
+  .desc {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    width: 100%;
+  }
+
   .foto {
     display: flex;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 0px 30px;
     align-items: center;
     justify-content: center;
   }
