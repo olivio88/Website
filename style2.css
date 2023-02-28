@@ -139,7 +139,6 @@ body {
 }
 
 .desc {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   padding: 0% 12%;
@@ -154,13 +153,11 @@ body {
 }
 
 .foto img {
-  border: 1px solid blue;
   width: 250px;
   margin-right: 40px;
 }
 
 .foto .text p {
-  border: 1px solid chocolate;
   text-align: justify;
 }
 
@@ -436,7 +433,6 @@ h2 {
   }
 
   .desc {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     padding: 0%;
@@ -452,7 +448,6 @@ h2 {
   }
 
   .foto img {
-    border: 1px solid blue;
     max-width: 50vw;
     margin: 0 auto;
   }
