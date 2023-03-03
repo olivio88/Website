@@ -139,6 +139,7 @@ body {
 }
 
 .desc {
+  border: 1px solid red;
   display: flex;
   flex-direction: row;
   padding: 0% 12%;
@@ -153,11 +154,13 @@ body {
 }
 
 .foto img {
+  border: 1px solid blue;
   width: 250px;
   margin-right: 40px;
 }
 
 .foto .text p {
+  border: 1px solid chocolate;
   text-align: justify;
 }
 
@@ -318,6 +321,8 @@ h2 {
 .card {
   border-radius: 25px 25px 25px 25px;
   background-color: #fff;
+  border: solid red;
+  min-height: 21rem;
 }
 
 .card img {
@@ -354,14 +359,18 @@ h2 {
 
 .name {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
   color: #333;
+}
+
+.tahun {
+  font-size: 15px;
 }
 
 .description {
   font-size: 14px;
   color: #707070;
-  text-align: center;
+  text-align: justify;
 }
 
 .button {
@@ -433,6 +442,7 @@ h2 {
   }
 
   .desc {
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     padding: 0%;
@@ -448,6 +458,7 @@ h2 {
   }
 
   .foto img {
+    border: 1px solid blue;
     max-width: 50vw;
     margin: 0 auto;
   }
