@@ -320,7 +320,6 @@ h2 {
 .card {
   border-radius: 25px 25px 25px 25px;
   background-color: #fff;
-  border: solid red;
   min-height: 21rem;
 }
 
