@@ -3,12 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: roboto;
+  font-family: 'Noto Serif', serif;
   background-color: #dc3545;
-}
-
-.warning {
-  padding: 2rem 0rem;
 }
 
 .warning img {
