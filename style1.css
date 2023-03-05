@@ -3,7 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: Roboto;
+  font-family: 'Noto Serif', serif;
   background-image: url(./Source/Image/20230122_234203.jpg);
 }
 
