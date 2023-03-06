@@ -319,7 +319,7 @@ h2 {
 .card {
   border-radius: 25px 25px 25px 25px;
   background-color: #fff;
-  min-height: 21rem;
+  min-height: 25rem;
 }
 
 .card img {
@@ -475,9 +475,6 @@ h2 {
     margin: 0 10px;
   }
 
-  .card {
-    min-height: 23rem;
-  }
   .swiper-button .swiper-navBtn {
     display: none;
   }
