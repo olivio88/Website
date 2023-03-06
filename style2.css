@@ -475,6 +475,9 @@ h2 {
     margin: 0 10px;
   }
 
+  .card {
+    min-height: 23rem;
+  }
   .swiper-button .swiper-navBtn {
     display: none;
   }
