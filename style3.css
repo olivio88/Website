@@ -1,0 +1,73 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Noto Serif', serif;
+  background-color: #dc3545;
+}
+
+.home {
+  width: 100%;
+}
+
+nav {
+  z-index: 9999;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: dodgerblue;
+}
+
+.nav-content {
+  display: flex;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-content ul li .active {
+  color: #fff;
+}
+
+.logo a {
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-content ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-content ul li {
+  list-style-type: none;
+  margin: 0 10px;
+  padding-top: 10px;
+}
+
+.nav-content ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #d2d2d2b7;
+  padding: 10px 4px;
+  text-decoration: none;
+}
+
+.nav-content ul li a:hover {
+  color: #fff;
+}
+
+.warning img {
+  width: 50%;
+}
